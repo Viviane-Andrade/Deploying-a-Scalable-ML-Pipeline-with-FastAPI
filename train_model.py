@@ -82,12 +82,13 @@ for col in cat_features:
             test,
             col,
             slicevalue,
+            cat_features,
+            "salary",
             encoder,
             lb,
-            model,
-            cat_features,
-            label="salary"
+            model
 )
+
 
         
         with open("slice_output.txt", "a") as f:
