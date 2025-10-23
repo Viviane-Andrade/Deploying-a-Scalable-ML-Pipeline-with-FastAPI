@@ -17,7 +17,7 @@ from ml.model import train_model
 from train_model import X_train, y_train
 
 # TODO: implement the first test. Change the function name and input as needed
-client = TestClient(app
+client = TestClient(app)
 def test_api():
     """
     # Tests if API request was successfull
